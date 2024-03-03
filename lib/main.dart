@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:table_calendar/table_calendar.dart';
-import 'event_creation_page.dart'; // Importa la página de creación de eventos
+import 'package:flutter_application_calendar/event_creation_page.dart'; // Importa la página de creación de eventos
+import 'package:flutter_application_calendar/event.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
-class Event {
-  final String title;
-  final DateTime date;
 
-  Event({required this.title, required this.date});
-}
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
